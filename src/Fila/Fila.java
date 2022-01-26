@@ -4,6 +4,7 @@ public class Fila {
     private No refNoEntradaFila;
 
     public Fila() {
+
         this.refNoEntradaFila = refNoEntradaFila;
     }
 
@@ -15,6 +16,7 @@ public class Fila {
         if(!this.isEmpty()){
             No primeiroNo = refNoEntradaFila;
         }
+        return null;
     }
 
     public boolean isEmpty(){
