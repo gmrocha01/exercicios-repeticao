@@ -12,8 +12,10 @@ public class Mega {
         int acertos = 0;
         int numero=0;
 
+        //MUDAR DE ARRAYLIST PARA SET, POIS O SET SÓ PERMITE NÚMEROS DIFERENTES !!!!!!
+        
         ArrayList<Integer> escolhaUser = new ArrayList<Integer>(6); //ArrayList com tamanho 6
-        ArrayList<Integer> numerosAleatorios = new ArrayList<Integer>(6); //ArrayList com tamanho 6
+        ArrayList<Integer> numerosAleatorios = new ArrayList<Integer>(6); //ArrayList com tamanho 6 
 
         //FOR criando os números aleatórios.
 
